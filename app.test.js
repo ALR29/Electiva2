@@ -70,7 +70,7 @@ test("obtenerFechaHora debe retornar una cadena de texto", () => {
 
 test("obtenerFechaHora debe contener el año actual", () => {
     const fecha = obtenerFechaHora();
-    expect(fecha).toContain('2024');
+    expect(fecha).toContain('2025');
 });
 
 // Test 2: Función saludar
